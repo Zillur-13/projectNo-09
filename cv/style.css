@@ -1,0 +1,109 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1000px;
+    height: 1600px;
+    background-color: rgb(194, 192, 191);
+    margin: 0 auto;
+    padding: 2%;
+}
+.profile-img{
+    height: 120px;
+    width: 145px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+}
+.header-bio{
+   float: left;
+   padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+    
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+    cursor: pointer;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+/* section */
+.section-top{
+    margin: 5px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+    color: #11999e;
+    text-transform: capitalize;
+}
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* education */
+
+.edu-template-left{
+    float: left;
+    width: 45%;
+    text-transform: capitalize;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+    text-transform: capitalize;
+}
+
+.social-network{
+   padding: 10px;
+   text-align: center;
+   background: #000;
+   
+}
+
+.social-network a{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+.social-network p{
+    text-decoration: none;
+    color: #fff;
+    margin: 13px;
+
+}
